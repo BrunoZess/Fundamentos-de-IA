@@ -8,11 +8,13 @@ Uma aplicação como essa pode ser usada, por exemplo, para priorizar o
 atendimento a clientes insatisfeitos ou monitorar a reputação de
 produtos.
 
+
 =Integrantes=
 
 - Thiago Freire
 - Paulo Vinicius
 - Bruno Ulisses
+  
 
 =Fonte dos dados=
 
@@ -20,8 +22,11 @@ Dataset B2W de avaliações de e-commerce brasileiro, disponível em:
 https://www.kaggle.com/datasets/fredericods/ptbr-sentiment-analysis-datasets
 
 -Atributo alvo: polarity (0 = avaliação negativa, 1 = avaliação positiva)
+
 -Atributo preditivo: review_text (texto livre da avaliação)
+
 -Tipo da tarefa: Classificação binária
+
 
 =Tipo da tarefa=
 
@@ -30,11 +35,11 @@ Classificação, pois o atributo alvo representa categorias
 
 =Organização dos arquivos=
 
-.
+
 ├── README.md
+
 ├── Projeto_Final_Sentimentos.ipynb --- notebook principal (abre no Colab)
-└── data/
-    └── b2w.csv                     --- dataset 
+
 
 =Como abrir o notebook no Colab=
 
@@ -51,8 +56,11 @@ Classificação, pois o atributo alvo representa categorias
 | Modelo |-| Papel |
 
 | DummyClassifier  |-| Baseline |
+
 | SGDClassifier |-| Modelo mínimo exigido (linear) |
+
 | RandomForestClassifier |-| Modelo mínimo exigido (ensemble) |
+
 | LogisticRegression |-| Modelo adicional de comparação |
 
 Todos os modelos foram treinados sobre representações TF-IDF
@@ -61,10 +69,13 @@ Todos os modelos foram treinados sobre representações TF-IDF
 =Principais resultados=
 
 | Modelo | Acurácia | Precisão | Revocação | F1-score |
-|
+
 | Regressão Logística | 0,933 | 0,946 | 0,919 | 0,932 |
+
 | SGDClassifier | 0,931 | 0,951 | 0,910 | 0,930 |
+
 | RandomForestClassifier | 0,920 | 0,924 | 0,915 | 0,919 |
+
 | Baseline (classe majoritária) | 0,500 | 0,000 | 0,000 | 0,000 |
 
 O modelo final escolhido foi a Regressão Logística, por apresentar
@@ -75,6 +86,7 @@ crítica no mesmo texto), uma limitação esperada de uma abordagem que se
 baseia em frequência de palavras.
 
 =Vídeo=
+
 
 Link do vídeo de apresentação: (inserir link)
 
