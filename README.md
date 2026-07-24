@@ -11,9 +11,9 @@ produtos.
 
 =Integrantes=
 
-- Thiago Freire
-- Paulo Vinicius
-- Bruno Ulisses
+- Thiago Freire / responsável por: código bruto / apresentação do cap 5.1 e 5.2
+- Paulo Vinicius / responsável por: analise dos dados/ apresentação do cap 5.3 e 5.4 
+- Bruno Ulisses / responsável por: revisão do código / apresentação do cap 5.5 ao 5.7
   
 
 =Fonte dos dados=
