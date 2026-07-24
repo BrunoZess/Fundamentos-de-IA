@@ -88,7 +88,7 @@ baseia em frequência de palavras.
 =Vídeo=
 
 
-Link do vídeo de apresentação: (inserir link)
+Link do vídeo de apresentação: https://youtu.be/KLx4py3EpZY?si=MD0eoABDrqWnWbxB
 
 =Uso de ferramentas de Inteligência Artificial=
 
